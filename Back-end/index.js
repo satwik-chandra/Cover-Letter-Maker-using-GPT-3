@@ -9,7 +9,7 @@ var cors = require('cors');
 app.use(cors());
 
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: "\\YOUR OPEN AI KEY",
 });
 const openai = new OpenAIApi(configuration);
 const chat_model = "gpt-3.5-turbo";
